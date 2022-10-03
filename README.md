@@ -3,9 +3,9 @@ Frequently used abbreviations of conf/journals when writing references by latex
 
 ## How to use
 
-1. Clone, or copy and paste `url_bib_utils.sty` into your latex workspace
+1. Clone, or copy and paste `url_bib_utils.sty` into your latex workspace. Note that the name should be same with the name in the step 2 
 
-2. Add below command in your latex main file
+2. Add the below command in your latex main file, i.e. `${YOUR_BIBTEX_FILE}.tex`
 
 ```
 $ \usepackage{url_bib_utils}
