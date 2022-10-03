@@ -1,14 +1,15 @@
 \ProvidesPackage{url_bib_utils}
 
 %%%%%%%%%%%%%%%%%% NOTE %%%%%%%%%%%%%%%%%%
-% 3rd, Nov, 2022. Written by Hyungtae Lim
+% 3rd, Oct., 2022. Written by Hyungtae Lim
 % Version 1.0
 % 1. Note that the arabic number can not be used to set a name of new command
 % Thus, 3DV -> threedv, 3D -> ThreeD
 % 2. Naming Convention of newcommand names
-% a) renowned conf/journal -> follow the abbrev
-% b) minor conf -> 'IEEE' is omitted
-% c) Journal of BLABLA -> JBLABLA
+% a) renowned conf/journal -> follow the its own abbrev
+% b) minor conf -> 'IEEE' is omitted, so 
+%     - IEEE International Conference ${CONF_NAME} -> IntConf${CONF_NAME by abbrev}
+%     - Journal of ${JOURNAL NAME} -> J${JOURNAL NAME by abbrev}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%
