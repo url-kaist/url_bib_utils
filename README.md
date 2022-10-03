@@ -17,11 +17,11 @@ For example, in `${YOUR_BIBTEX_FILE}.bib`, change the journal as follows:
 
 **Before**
 
-![materials/before_using_abbrev.PNG]
+![before_using_abbrev](before_using_abbrev.PNG)
 
 **After**
 
-![materials/after_using_abbrev.PNG]
+![after_using_abbrev](after_using_abbrev.PNG)
 
 And it works! 
 
